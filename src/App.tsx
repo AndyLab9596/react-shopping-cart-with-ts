@@ -3,7 +3,7 @@ import { useQuery } from "react-query";
 // Components
 import { Drawer, LinearProgress, Grid, Badge } from "@material-ui/core";
 import AddShoppingCart from "@material-ui/icons/AddShoppingCart";
-
+import Item from "./Item/Item";
 // Styles
 import { Wrapper } from "./App.styles";
 
@@ -30,7 +30,7 @@ const App = () => {
 
   const getTotalItems = () => null;
 
-  const handleAddToCart = () => null;
+  const handleAddToCart = (clickedItem: CartItemType) => null;
 
   const handleRemoveFromCart = () => null;
 
